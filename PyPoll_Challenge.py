@@ -6,7 +6,7 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = os.path.join("../Resources/election_results.csv")
+file_to_load = os.path.join("Resources/election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
@@ -18,7 +18,8 @@ candidate_options = []
 candidate_votes = {}
 
 # 1: Create a county list and county votes dictionary.
-
+county_lst=[]
+county_dict={}
 
 
 # Track the winning candidate, vote count and percentage
@@ -27,8 +28,8 @@ winning_count = 0
 winning_percentage = 0
 
 # 2: Track the largest county and county voter turnout.
-
-
+county_largest_turnout=""
+vote_num_country_largest_turnout=0
 
 # Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
@@ -47,7 +48,7 @@ with open(file_to_load) as election_data:
         candidate_name = row[2]
 
         # 3: Extract the county name from each row.
-
+        county_name= row[]
 
         # If the candidate does not match any existing candidate add it to
         # the candidate list
