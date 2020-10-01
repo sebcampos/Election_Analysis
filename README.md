@@ -42,3 +42,9 @@ The analysis of the election shows that:
     - Diana DeGette, who recieved 73.81% of the vote and 272,892 number of votes.
 
 ## Election Audit Summary
+This Script would be very usefull and easily adaptable to 
+reading any csv containing at least a column of Ballot ID's and their related Candidate choice
+
+Ballot Id
+County
+Candidate
