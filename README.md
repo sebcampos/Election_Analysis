@@ -12,7 +12,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 7. Determine the total percentage of votes per county.
 8. Print results to the terminal
 9. Write a text file named election_results.txt containing Election results, total cost, county results, largest county turn out, candidate results, and finally with the winner with their respective vote count and percentage of votes.  
- 
+ f
 ## Resources
 - Data Source: election_results.csv
 - Software: Python 3.8.5, Visual Studio Code version: 1.49.2
