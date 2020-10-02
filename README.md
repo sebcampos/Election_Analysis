@@ -43,8 +43,13 @@ The analysis of the election shows that:
 
 ## Election Audit Summary
 This Script would be very usefull and easily adaptable to 
-reading any csv containing at least a column of Ballot ID's and their related Candidate choice
+reading any csv containing at least a column of Ballot ID's and their related Candidate choice. This script runs quickly and is built to run as efficecntly as possible for large sets of data. It ensures this by collecting and storing all necicary values within one iteration.  The sudo script also allows for easy modification as it clearly explains the logic of the process at every step making it flexible and easy to refactor. For excample, if we would like to include more columns and or operations one would simply need to add a `list` object or `counter` object before the iteration begins.
+![alt text]()
+Then through out the iteration or `for` loop  we can add out    `if` statments to collect the relevant data.
+![alt text]()
+In thie case we see that the iteration focuses on these values
+- Ballot Id
+- County
+- Candidate
 
-Ballot Id
-County
-Candidate
+Potentially if there was other data we would want one could simply add to this list with one accumulator/counter and one `if` statment! This script will solve all your election csv data analysis needs!
