@@ -43,10 +43,12 @@ The analysis of the election shows that:
 
 ## Election Audit Summary
 This Script would be very usefull and easily adaptable to 
-reading any csv containing at least a column of Ballot ID's and their related Candidate choice. This script runs quickly and is built to run as efficecntly as possible for large sets of data. It ensures this by collecting and storing all necicary values within one iteration.  The sudo script also allows for easy modification as it clearly explains the logic of the process at every step making it flexible and easy to refactor. For excample, if we would like to include more columns and or operations one would simply need to add a `list` object or `counter` object before the iteration begins.
-![alt text]()
-Then through out the iteration or `for` loop  we can add out    `if` statments to collect the relevant data.
-![alt text]()
+reading any csv containing at least a column of Ballot ID's and their related Candidate choice. This script runs quickly and is built to run as efficecntly as possible for large sets of data. It ensures this by collecting and storing all necicary values within one iteration.  The sudo script also allows for easy modification as it clearly explains the logic of the process at every step making it flexible and easy to refactor. For excample, if we would like to include more columns and or operations one would simply need to add a `list` object or `counter` object before the iteration begins. We can see this easily spelled out for us below
+![alt text](https://github.com/sebcampos/Election_Analysis/blob/master/Resources/Screen%20Shot%202020-10-02%20at%2012.31.54%20PM.png?raw=True)
+
+Then through out the iteration or `for` loop seen below  we can add our    `if` statments to collect the relevant data. 
+
+![alt text](https://github.com/sebcampos/Election_Analysis/blob/master/Resources/Screen%20Shot%202020-10-02%20at%2012.33.18%20PM.png?raw=True)
 In thie case we see that the iteration focuses on these values
 - Ballot Id
 - County
