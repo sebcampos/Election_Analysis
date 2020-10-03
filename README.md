@@ -12,7 +12,6 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 7. Determine the total percentage of votes per county.
 8. Print results to the terminal
 9. Write a text file named election_results.txt containing Election results, total cost, county results, largest county turn out, candidate results, and finally with the winner with their respective vote count and percentage of votes.  
- f
 ## Resources
 - Data Source: election_results.csv
 - Software: Python 3.8.5, Visual Studio Code version: 1.49.2
@@ -45,8 +44,10 @@ The analysis of the election shows that:
 This Script would be very useful and easily adaptable to
 reading any csv containing at least a column of Ballot ID's and their related Candidate choice. This script runs quickly and is built to run as efficiently as possible for large sets of data. It ensures this by collecting and storing all necessary values within one iteration.  The sudo script also allows for easy modification as it clearly explains the logic of the process at every step making it flexible and easy to refactor. For example, if we would like to include more columns and or operations one would simply need to add a `list` object or `counter` object before the iteration begins. We can see this easily spelled out for us below
 ![alt text](https://github.com/sebcampos/Election_Analysis/blob/master/Resources/Screen%20Shot%202020-10-02%20at%2012.31.54%20PM.png?raw=True)
- 
+
+
 Then throughout the iteration of `for` loop seen below  we can add our    `if` statements to collect the relevant data.
+
  
 ![alt text](https://github.com/sebcampos/Election_Analysis/blob/master/Resources/Screen%20Shot%202020-10-02%20at%2012.33.18%20PM.png?raw=True)
  
